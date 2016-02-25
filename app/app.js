@@ -24,14 +24,31 @@ angular
         url: '/login',
         controller: 'authCtrl as authCtrl',
         templateUrl: 'auth/login.html'
+        resolve:{
+          requireNoAuth: function($state, Auth){
+            return Auth.$requireAuth().then(function(auth){
+              $state.go('home');
+            }, function(error){
+              return;
+            });
+          }
+        }
       })
       .state('register', {
         url: '/register',
         controller: 'authCtrl as authCtrl',
         templateUrl: 'auth/register.html'
+        resolve:{
+          requireNoAuth: function($state, Auth){
+            return Auth.$requireAuth().then(function(auth){
+              $state.go('home');
+            }, function(error){
+              return;
+            });
+          }
+        }
       });
 
     $urlRouterProvider.otherwise('/');
   })
   .constant('FirebaseUrl', 'https://angularfirebaseslack.firebaseio.com/');
-  
