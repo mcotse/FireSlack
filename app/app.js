@@ -23,7 +23,7 @@ angular
       .state('login', {
         url: '/login',
         controller: 'authCtrl as authCtrl',
-        templateUrl: 'auth/login.html'
+        templateUrl: 'auth/login.html',
         resolve:{
           requireNoAuth: function($state, Auth){
             return Auth.$requireAuth().then(function(auth){
@@ -37,7 +37,7 @@ angular
       .state('register', {
         url: '/register',
         controller: 'authCtrl as authCtrl',
-        templateUrl: 'auth/register.html'
+        templateUrl: 'auth/register.html',
         resolve:{
           requireNoAuth: function($state, Auth){
             return Auth.$requireAuth().then(function(auth){
