@@ -1,4 +1,4 @@
 {
   "firebase": "angularfirebaseslack",
-  "public": "dist"
+  "public": "app"
 }
