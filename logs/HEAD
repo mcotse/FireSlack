@@ -1,0 +1,28 @@
+0000000000000000000000000000000000000000 46f260e44be7379f60972d046ee7e6744fee3525 Matthew Tse <mtse9779@gmail.com> 1456367913 -0500	commit (initial): initial commit
+46f260e44be7379f60972d046ee7e6744fee3525 465cd318b70cf35c48faa1406f0915e328afb72b Matthew Tse <mtse9779@gmail.com> 1456370219 -0500	commit: ref to firebase
+465cd318b70cf35c48faa1406f0915e328afb72b cb0eff2f3e81bab98a40a07f986b94de55a4688a Matthew Tse <mtse9779@gmail.com> 1456370413 -0500	commit: initialize auth factory and ctrler
+cb0eff2f3e81bab98a40a07f986b94de55a4688a 218ea99bd4180c6c1350440c7955fc4ad19addc3 Matthew Tse <mtse9779@gmail.com> 1456370659 -0500	commit: added auth function and login function
+218ea99bd4180c6c1350440c7955fc4ad19addc3 b5f6d4f99d3eda0dbb6391846fc08a50ef5603af Matthew Tse <mtse9779@gmail.com> 1456370761 -0500	commit: added register function
+b5f6d4f99d3eda0dbb6391846fc08a50ef5603af 6eb39b36a0f2c3056563e3b21cacb10ed3683173 Matthew Tse <mtse9779@gmail.com> 1456370909 -0500	commit: added script src in index
+6eb39b36a0f2c3056563e3b21cacb10ed3683173 e2ae6b0ae2c9aaebbcd8f8da8078d9b361bc3071 Matthew Tse <mtse9779@gmail.com> 1456370936 -0500	commit: relocated controller content
+e2ae6b0ae2c9aaebbcd8f8da8078d9b361bc3071 236ef652f57b3826c931abd0ed770a77dc07a118 Matthew Tse <mtse9779@gmail.com> 1456370978 -0500	commit: removed controller from service js
+236ef652f57b3826c931abd0ed770a77dc07a118 c4cb32671bfb3e34997105c468ef79d32c1f9b02 Matthew Tse <mtse9779@gmail.com> 1456371176 -0500	commit: added authctrl as controller for login and reg
+c4cb32671bfb3e34997105c468ef79d32c1f9b02 5a25895ebe4dcb53353353e003b7262beb05a5c5 Matthew Tse <mtse9779@gmail.com> 1456371400 -0500	commit: added ng-submit and email/pw input ref
+5a25895ebe4dcb53353353e003b7262beb05a5c5 d25da2f9e8808f5a8214a5ef549cc90f323b1806 Matthew Tse <mtse9779@gmail.com> 1456371462 -0500	commit: added error message on reg failure
+d25da2f9e8808f5a8214a5ef549cc90f323b1806 a027152d4df331c65aa6db114fcf54c40d6cd340 Matthew Tse <mtse9779@gmail.com> 1456371989 -0500	commit: login ref
+a027152d4df331c65aa6db114fcf54c40d6cd340 28be70f2c4a3eb98b6bc4c62628ce8e438a00e15 Matthew Tse <mtse9779@gmail.com> 1456372415 -0500	commit: mmerged .state login and register
+28be70f2c4a3eb98b6bc4c62628ce8e438a00e15 1aae40a3be8e85bdc10130fb8b858f690be352fb Matthew Tse <mtse9779@gmail.com> 1456372579 -0500	commit: added resolve to login and reg state
+1aae40a3be8e85bdc10130fb8b858f690be352fb 0a8f6831cda60ba3f7248b56f50a011863b52023 Matthew Tse <mtse9779@gmail.com> 1456373169 -0500	commit: added , before resolve
+0a8f6831cda60ba3f7248b56f50a011863b52023 d4960c4c4aeb07a44e17ecf92979a1e4642691c9 Matthew Tse <mtse9779@gmail.com> 1456373226 -0500	commit: placed login/reg function back within correct scop
+d4960c4c4aeb07a44e17ecf92979a1e4642691c9 86a15e16aec86056fb3e9c900839a9303efd7a31 Matthew Tse <mtse9779@gmail.com> 1456797580 -0500	commit: added parameters to factory
+86a15e16aec86056fb3e9c900839a9303efd7a31 affde0241515bc9c5d5999521045f42a2aa3966f Matthew Tse <mtse9779@gmail.com> 1456798064 -0500	commit: correct controller name
+affde0241515bc9c5d5999521045f42a2aa3966f 2e68f809d8a75eff1840f11797fc9e82786d755c Matthew Tse <mtse9779@gmail.com> 1456801721 -0500	commit: added user factory and controller
+2e68f809d8a75eff1840f11797fc9e82786d755c 8e988efc58db42631bd8b6c2e4214dc070b29934 Matthew Tse <mtse9779@gmail.com> 1456802091 -0500	revert: Revert "added user factory and controller"
+8e988efc58db42631bd8b6c2e4214dc070b29934 c1663bc395546af62cf899a330bc1775d5802251 Matthew Tse <mtse9779@gmail.com> 1456802408 -0500	revert: Revert "Revert "added user factory and controller""
+c1663bc395546af62cf899a330bc1775d5802251 448f1304893b6cba29a3bcb11303006b53386a89 Matthew Tse <mtse9779@gmail.com> 1456802485 -0500	commit: typo
+448f1304893b6cba29a3bcb11303006b53386a89 b73538605f9f76038db6a30d2f68b8654bf92a22 Matthew Tse <mtse9779@gmail.com> 1456803993 -0500	commit: added users controler
+b73538605f9f76038db6a30d2f68b8654bf92a22 2201d3e641031ec39c438595375b58b3a97ba215 Matthew Tse <mtse9779@gmail.com> 1456804221 -0500	commit: added profile page
+2201d3e641031ec39c438595375b58b3a97ba215 d77c8f8e8fa870956070fdabefcfd45e3894d16b Matthew Tse <mtse9779@gmail.com> 1456805605 -0500	commit: firebase tools config file
+d77c8f8e8fa870956070fdabefcfd45e3894d16b 3f544c9e55283a53524c6d670e2a2a7fd22b6403 Matthew Tse <mtse9779@gmail.com> 1456806031 -0500	commit: moved firebase.json to app folder
+3f544c9e55283a53524c6d670e2a2a7fd22b6403 414d2942fe8ec7c002d98cc35114f2618334b51f Matthew Tse <mtse9779@gmail.com> 1456806173 -0500	commit: back to base
+414d2942fe8ec7c002d98cc35114f2618334b51f 0bf473ba5e8eca72c83f69246b5b70d02095d663 Matthew Tse <mtse9779@gmail.com> 1457152892 -0500	commit: addedhannel
